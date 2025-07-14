@@ -6,4 +6,4 @@ dependencies:
   - pip
   - notebook
   - pip:
-      - .[dev]
+      - git+https://github.com/shreyayayyy/bigbang.git#egg=bigbang[dev]
