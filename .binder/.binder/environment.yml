@@ -1,0 +1,9 @@
+name: bigbang-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - notebook
+  - pip:
+      - git+https://github.com/datactive/bigbang.git
