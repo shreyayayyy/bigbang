@@ -6,4 +6,4 @@ dependencies:
   - pip
   - notebook
   - pip:
-      - -e ./bigbang
+      - .[dev]
