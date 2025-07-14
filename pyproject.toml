@@ -49,7 +49,7 @@ dependencies = [
 
 [project.optional-dependencies]
 test = ['pytest', 'coverage', 'testfixtures']
-dev = ['bigbang-py[test]', 'black', 'isort', 'pre-commit']
+dev = ['black', 'isort', 'pre-commit']
 
 [project.urls]
 "Homepage" = "https://github.com/datactive/bigbang"
@@ -67,9 +67,6 @@ known_third_party = "celery,django,environ,pyquery,pytz,redis,requests,rest_fram
 
 [tool.ruff]
 ignore = ['F401', 'E501', 'E731', 'F403', 'F821', 'F541', 'E402', 'F405']
-
-[tool.setuptools]
-py-modules = []
 
 [tool.setuptools.packages.find]
 include = ["bigbang*"]
